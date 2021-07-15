@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Banner com o formulário e imagem*/
+.container{ 
+    background-color: rgb(105, 165, 164);
+    height: 500px;
+    width: 100%;
+}
+.container .section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .section-container img {
+    height: 400px;
+}
+
+.container .section-container .section-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 10rem;
+}
+
+.container .section-container .section-form img {
+    max-height: 300px;
+    
+}
+
+.container .section-container .section-form h1{
+    
+    font-size: 5rem;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container .section-container .section-form h1 spam{
+    color: #df1616;
+}
+
+.container .section-container .section-form p{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+}
+
+.container .section-container .section-form p spam{
+    color: #df1616;
+    font-weight: bolder;
+    background-color: white;
+    text-shadow: none;
+}
+
+.container .section-container .section-form form {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 2rem;
+    border-radius: 10px;  
+}
+
+
+
+.container .section-container .section-form form input{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 48px;
+    outline-style: none;
+    color: black;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.container .section-container .section-form form button{
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(189, 27, 27);
+    color: white;
+    width: 96px;
+    height: 48px;
+}
+
+.container .section-container .section-form form button:hover{
+    background-color: rgb(233, 43, 43);
+}
+
+/*título da promoção*/
+.promo{
+    background-color:white;
+}
+
+.promo .title-promo h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    padding-left: 3.12rem;
+    margin-top: 0.6rem;
+    color: black;
+    width: 50%;
+}
+
+.promo .title-promo h1 spam{
+    color: white;
+    background-color: rgb(189, 27, 27);
+    border-radius: 1rem;
+    
+}
+
+/*Celulares da promoção*/
+.produtos-group{
+    padding-bottom: 5rem;
+}
+
+.produtos-group .group-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.produtos-group .group-item .item-produtos{
+    display: flex;
+    max-width: 400px;
+    max-height: 524px;
+    padding: 4rem;
+    margin: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(102, 36, 91);
+}
+
+.produtos-group .group-item .item-produtos h2{
+    padding-bottom: 0.5rem;
+}
+
+
+.produtos-group .group-item .item-produtos button{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    cursor:pointer;
+    background-color: rgb(151, 209, 89);
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    width: 7rem;
+    
+}
+
+.produtos-group .group-item .item-produtos button:hover {
+    background-color: rgb(107, 173, 36);
+}
+
+/*Rodapé da página com o copyright e os ícones com as redes sociais*/
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+footer h3{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer .redes-sociais{
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+    list-style: none;
+}
+
+footer .redes-sociais a{
+    padding: 0.2rem;
+}
+
+footer .redes-sociais i{
+    color: white;
+    font-size: 1.5rem;
+}
